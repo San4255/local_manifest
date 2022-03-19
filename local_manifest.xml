@@ -24,4 +24,7 @@
  <remove-project name="android_hardware_qcom_wlan" />
  <project path="hardware/qcom-caf/wlan" name="anandhan07/hardware_qcom-caf_wlan" remote="github" revision="12" />
 
+ <!-- Sepolicy -->
+ <project path="device/qcom/sepolicy-legacy-um" name="anandhan07/device_qcom_sepolicy-legacy-um" remote="github" revision="spark-12" />
+
 </manifest>
