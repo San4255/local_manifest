@@ -20,4 +20,8 @@
  <!-- Packages -->
  <project path="packages/apps/FMRadio" name="anandhan07/android_packages_apps_FMRadio" remote="github" revision="12" />
 
+ <!-- Hals -->
+ <remove-project name="android_hardware_qcom_wlan" />
+ <project path="hardware/qcom-caf/wlan" name="anandhan07/hardware_qcom-caf_wlan" remote="github" revision="12" />
+
 </manifest>
