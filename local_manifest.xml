@@ -17,4 +17,7 @@
  <!-- Cosmic Clang Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/Cosmic-Clang.git" remote="Gitlab" revision="master" clone-depth="1" />
 
+ <!-- Packages -->
+ <project path="packages/apps/FMRadio" name="anandhan07/android_packages_apps_FMRadio" remote="github" revision="12" />
+
 </manifest>
