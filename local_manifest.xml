@@ -2,12 +2,18 @@
 <manifest>
 
  <!-- Remotes -->
-  <remote name="anandhan07" fetch="https://github.com/anandhan07/" />
-  <remote name="clang" fetch="https://gitlab.com/anandhan07/" />
+  <remote name="anandhan07"
+          fetch="https://github.com/anandhan07/" />
+
+  <remote name="clang"
+          fetch="https://gitlab.com/anandhan07/" />
+ 
+ <!-- Remove Projects -->
+ <remove-project name="AOSPA/android_vendor_aospa" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="anandhan07" revision="AOSPA-staging" />
- <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="anandhan07" revision="AOSPA-staging" />
+ <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="anandhan07" revision="AOSPA-wip" />
+ <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="anandhan07" revision="AOSPA-wip" />
  <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="anandhan07" revision="aospa" />
 
  <!-- Clang -->
@@ -18,14 +24,10 @@
  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="anandhan07" revision="AOSPA-sapphire/msm8953-R" />
  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="anandhan07" revision="AOSPA-sapphire/msm8953-R" />
 
- <!-- tinyxml -->
- <project path="external/tinyxml" name="external_tinyxml" remote="anandhan07" revision="master" />
-
  <!-- Sepolicy -->
  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy-um" remote="anandhan07" revision="AOSPA-sapphire" />
 
  <!-- vendor_aospa -->
- <remove-project name="AOSPA/android_vendor_aospa" />
  <project path="vendor/aospa" name="android_vendor_aospa" remote="anandhan07" revision="sapphire" clone-depth="1" >
    <linkfile src="build.sh" dest="rom-build.sh" />
  </project>
