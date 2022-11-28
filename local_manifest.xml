@@ -15,12 +15,9 @@
             clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="me-hub" revision="ricedroid-13.0" />
- <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="13.0" />
+ <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="me-hub" revision="test" />
+ <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="test" />
  <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="GhostMaster69-dev" revision="master" />
-
- <!-- External repos -->
- <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
 
  <!-- Clang [TEMP] -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
