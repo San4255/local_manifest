@@ -19,6 +19,10 @@
  <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="test" />
  <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="GhostMaster69-dev" revision="master" />
 
+ <!-- Frameworks -->
+ <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+ <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="me-hub" revision="ricedroid-13.0" />
+
  <!-- Clang [TEMP] -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 
